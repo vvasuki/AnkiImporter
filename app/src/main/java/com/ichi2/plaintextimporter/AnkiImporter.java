@@ -219,7 +219,7 @@ public class AnkiImporter extends AppCompatActivity implements ActivityCompat.On
 
     /**
      * Use the instant-add API to add flashcards directly to AnkiDroid
-     * @param data List of cards to be added. Each card has a HashMap of field name / field value pairs.
+     * @param input List of cards to be added. Each card has a HashMap of field name / field value pairs.
      */
     private void addOrUpdateCardsToAnkiDroid(final ArrayList<DeckInformation> input) {
         
